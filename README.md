@@ -1,6 +1,8 @@
 # Acid Rain Datapack
 
-Datapack for Minecraft Java Edition 1.21.4.
+Datapack for Minecraft Java Edition 1.21.11.
+
+Target data pack format: `94`.
 
 ## Features
 
