@@ -1,0 +1,25 @@
+{
+  "display": {
+    "title": {
+      "text": "Acid Rain",
+      "color": "dark_green",
+      "bold": true
+    },
+    "description": {
+      "text": "Datapack loaded",
+      "color": "green"
+    },
+    "icon": {
+      "id": "minecraft:knowledge_book"
+    },
+    "background": "minecraft:textures/block/gray_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_damage",
+  "damage": {
+    "type": "minecraft:uniform",
+    "min": 0.003,
+    "max": 0.008
+  },
+  "add": true
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"S S",
+		"ISI",
+		"III"
+	],
+	"key": {
+		"S": "minecraft:slime_ball",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "minecraft:iron_chestplate",
+		"components": {
+			"minecraft:item_name": "{\"text\":\"Нагрудник Хим. Защиты\",\"color\":\"dark_green\",\"bold\":true}",
+			"minecraft:custom_data": {
+				"x1miya_acid_rain_gear": "chem"
+			}
+		},
+		"count": 1
+	},
+	"show_notification": true
+}
