@@ -1,23 +1,28 @@
 {
-  "display": {
-    "title": {
-      "text": "Creator",
-      "color": "green"
-    },
-    "description": {
-      "text": "X1miya"
-    },
-    "icon": {
-      "id": "minecraft:player_head"
-    },
-    "show_toast": false,
-    "announce_to_chat": false
-  },
-  "parent": "global:root",
-  "criteria": {
-    "trigger": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "sends_telemetry_event": false
+    "display":  {
+                    "title":  {
+                                  "text":  "Creator",
+                                  "color":  "green"
+                              },
+                    "description":  {
+                                        "text":  "X1miya"
+                                    },
+                    "icon":  {
+                                 "id":  "minecraft:player_head",
+                                 "components":  {
+                                                    "minecraft:profile":  {
+                                                                              "name":  "X1miya"
+                                                                          }
+                                                }
+                             },
+                    "show_toast":  false,
+                    "announce_to_chat":  false
+                },
+    "parent":  "global:root",
+    "criteria":  {
+                     "trigger":  {
+                                     "trigger":  "minecraft:tick"
+                                 }
+                 },
+    "sends_telemetry_event":  false
 }
