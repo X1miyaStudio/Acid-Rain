@@ -13,7 +13,11 @@
 	"result": {
 		"id": "minecraft:iron_chestplate",
 		"components": {
-			"minecraft:item_name": "{\"text\":\"Нагрудник Хим. Защиты\",\"color\":\"dark_green\",\"bold\":true}",
+			"minecraft:item_name": {
+				"text": "Chemical Protection Chestplate",
+				"color": "dark_green",
+				"bold": true
+			},
 			"minecraft:custom_data": {
 				"x1miya_acid_rain_gear": "chem"
 			}

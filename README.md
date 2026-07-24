@@ -1,28 +1,30 @@
-# Acid Rain Datapack
+# Acid Rain
 
-Datapack for Minecraft Java Edition 1.21.11.
-
-Target data pack format: `94`.
+Acid Rain turns ordinary weather into a configurable survival hazard. Find shelter, craft chemical protection, and watch your armor corrosion when the sky turns dangerous.
 
 ## Features
 
-- Rain becomes acid rain.
-- Survival and Adventure players take damage outdoors under the open sky.
+- Configurable chance for rain to become acid rain.
+- Outdoor damage for Survival and Adventure players.
+- Four-piece chemical protection set with custom recipes.
+- Armor corrosion, warnings, particles, sounds, and durability feedback.
+- `Unbreaking` reduces corrosion chance.
 - Creative and Spectator players are ignored.
-- A full chemical protection armor set blocks direct acid damage.
-- Chemical protection armor slowly corrodes during acid rain.
-- Start and stop messages, particles, and sounds are included.
 
-## Chemical Protection
+## Crafting
 
-Craft the set from iron ingots and slime balls:
-
-- `x1miya:chem_helmet`
-- `x1miya:chem_suit`
-- `x1miya:chem_leggings`
-- `x1miya:chem_boots`
+![Chemical protection crafting recipes](docs/crafting.png)
 
 ## Commands
 
-- `/function x1miya:acid_rain/reset` reloads scoreboard state.
-- `/function x1miya:acid_rain/uninstall` removes the datapack scoreboard objective.
+- `/function x1miya:acid_rain/status`
+- `/function x1miya:acid_rain/force_start`
+- `/function x1miya:acid_rain/force_stop`
+- `/function x1miya:acid_rain/reset`
+- `/function x1miya:acid_rain/uninstall`
+
+## Installation
+
+Place the ZIP in `<world>/datapacks/`, then run `/reload`.
+
+Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `x1miya` · X1miyaStudio
