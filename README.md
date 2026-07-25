@@ -27,4 +27,8 @@ Acid Rain turns ordinary weather into a configurable survival hazard. Find shelt
 
 Place the ZIP in `<world>/datapacks/`, then run `/reload`.
 
+<<<<<<< HEAD
 Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `x1miya` · All Rights Reserved · X1miyaStudio
+=======
+Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `x1miya` · X1miyaStudio
+>>>>>>> b1dadd5 (Добавлена механика коррозии брони химзащиты от кислотного дождя с учетом зачарования «Прочность», а также обновлены тексты уведомлений на английский язык)
